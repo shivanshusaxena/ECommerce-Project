@@ -1,0 +1,3 @@
+STORAGE_ACCOUNT_NAME=Your storage account name
+CONTAINER_NAME=your container name
+STORAGE_ACCOUNT_KEY= Storage key 
