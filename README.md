@@ -19,6 +19,7 @@ Raw CSV → Python (Pandas) → ADLS Gen2 → Power BI
 - Azure Data Lake Storage Gen2
 - Azure Blob Storage
 - Power BI
+- PySpark, Databricks, Delta Lake, Unity Catalog
 
 ## Business Questions Answered
 - Which state/city has most orders?
@@ -32,10 +33,19 @@ Raw CSV → Python (Pandas) → ADLS Gen2 → Power BI
 3. Create .env file with your Azure credentials (see .env.example)
 4. Add your CSV files to /archive folder
 5. Run: python ecommerce_pipeline.py
-```
+
+
+## Part 2 — PySpark on Databricks
+- Read data from ADLS Gen2 using PySpark
+- Performed aggregations to answer business questions
+- Saved results as Delta tables in Unity Catalog
+- Queried Delta tables using Spark SQL
+
 
 ## Dashboard Preview
 <img width="1917" height="1035" alt="Ecommimgage" src="https://github.com/user-attachments/assets/03a47455-5b06-4a43-b8a8-dbd28959e7bc" />
 
 
+
 Shivanshu Saxena
+```
