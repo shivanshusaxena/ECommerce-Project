@@ -41,6 +41,11 @@ Raw CSV → Python (Pandas) → ADLS Gen2 → Power BI
 - Saved results as Delta tables in Unity Catalog
 - Queried Delta tables using Spark SQL
 
+## Part 3 — Azure Data Factory
+- Created ADF pipeline to trigger Databricks notebook
+- Pipeline orchestrates end-to-end data flow automatically
+- Successfully executed PySpark transformations via ADF
+
 
 ## Dashboard Preview
 <img width="1917" height="1035" alt="Ecommimgage" src="https://github.com/user-attachments/assets/03a47455-5b06-4a43-b8a8-dbd28959e7bc" />
