@@ -20,6 +20,9 @@ Raw CSV → Python (Pandas) → ADLS Gen2 → Power BI
 - Azure Blob Storage
 - Power BI
 - PySpark, Databricks, Delta Lake, Unity Catalog
+- Azure Data Factory
+- Pipeline orchestration
+
 
 ## Business Questions Answered
 - Which state/city has most orders?
